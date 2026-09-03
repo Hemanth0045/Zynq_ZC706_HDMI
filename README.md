@@ -1,6 +1,6 @@
 # Zynq_ZC706_HDMI
-
 HDMI display pipeline implementation on the Xilinx Zynq-7000 ZC706 Evaluation Kit.
+This project is intended for learning, development, and research purposes.
 
 This project demonstrates how image/frame data stored in **DDR memory** can be read by the programmable logic and transmitted to an HDMI display through the onboard **ADV7511 HDMI transmitter**.
 
@@ -381,3 +381,4 @@ Author
 Hemanth Reddy
 FPGA / RTL Engineer
 
+This project is intended for learning, development, and research purposes.
