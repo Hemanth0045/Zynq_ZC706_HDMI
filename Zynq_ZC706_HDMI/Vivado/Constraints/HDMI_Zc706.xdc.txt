@@ -1,0 +1,65 @@
+set_property PACKAGE_PIN AJ18    [get_ports IIC_0_sda_io]
+set_property IOSTANDARD LVCMOS25 [get_ports IIC_0_sda_io]
+set_property PACKAGE_PIN AJ14    [get_ports IIC_0_scl_io]
+set_property IOSTANDARD LVCMOS25 [get_ports IIC_0_scl_io]
+
+set_property PACKAGE_PIN R22     [get_ports vid_hsync_0]
+set_property IOSTANDARD LVCMOS25 [get_ports vid_hsync_0]
+set_property PACKAGE_PIN V24     [get_ports vid_active_video_0]
+set_property IOSTANDARD LVCMOS25 [get_ports vid_active_video_0]
+set_property PACKAGE_PIN U21     [get_ports vid_vsync_0]
+set_property IOSTANDARD LVCMOS25 [get_ports vid_vsync_0]
+set_property PACKAGE_PIN P28     [get_ports HDMI_Clock]
+set_property IOSTANDARD LVCMOS25 [get_ports HDMI_Clock]
+# RED
+set_property PACKAGE_PIN AC22 [get_ports {vid_data_0[23]}];           # Data-pin 23
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[23]}];
+set_property PACKAGE_PIN V21 [get_ports {vid_data_0[22]}];            # Data-pin 22
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[22]}];
+set_property PACKAGE_PIN N28 [get_ports {vid_data_0[21]}];            # Data-pin 21
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[21]}];
+set_property PACKAGE_PIN U22 [get_ports {vid_data_0[20]}];            # Data-pin 20
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[20]}];
+set_property PACKAGE_PIN AA27 [get_ports {vid_data_0[19]}];           # Data-pin 19
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[19]}];
+set_property PACKAGE_PIN V22 [get_ports {vid_data_0[18]}];            # Data-pin 18
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[18]}];
+set_property PACKAGE_PIN AF28 [get_ports {vid_data_0[17]}];           # Data-pin 17
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[17]}];
+set_property PACKAGE_PIN Y28  [get_ports {vid_data_0[16]}];           # Data-pin 16
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[16]}];
+# GREEN
+set_property PACKAGE_PIN AD30 [get_ports {vid_data_0[15]}];           # Data-pin 15
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[15]}];
+set_property PACKAGE_PIN AA29 [get_ports {vid_data_0[14]}];           # Data-pin 14
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[14]}];
+set_property PACKAGE_PIN Y25 [get_ports {vid_data_0[13]}];            # Data-pin 13 
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[13]};]
+set_property PACKAGE_PIN AE30 [get_ports {vid_data_0[12]}];           # Data-pin 12
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[12]}];
+set_property PACKAGE_PIN AC26 [get_ports {vid_data_0[11]}];           # Data-pin 11
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[11]}];
+set_property PACKAGE_PIN AA28 [get_ports {vid_data_0[10]}];           # Data-pin 10 
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[10]}];
+set_property PACKAGE_PIN AB26 [get_ports {vid_data_0[9]}];            # Data-pin 9
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[9]}];
+set_property PACKAGE_PIN AD26 [get_ports {vid_data_0[8]}];            # Data-pin 8
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[8]}];
+# BLUE
+set_property PACKAGE_PIN T27 [get_ports {vid_data_0[7]}];             # Data-pin 7
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[7]}];
+set_property PACKAGE_PIN AB25 [get_ports {vid_data_0[6]}];            # Data-pin 6
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[6]}];
+set_property PACKAGE_PIN T23 [get_ports {vid_data_0[5]}];             # Data-pin 5
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[5]}];
+set_property PACKAGE_PIN AE28 [get_ports {vid_data_0[4]}];            # Data-pin 4
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[4]}];
+set_property PACKAGE_PIN AA25 [get_ports {vid_data_0[3]}];            # Data-pin 3
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[3]}];
+set_property PACKAGE_PIN R23 [get_ports {vid_data_0[2]}];             # Data-pin 2
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[2]}];
+set_property PACKAGE_PIN T22 [get_ports {vid_data_0[1]}];             # Data-pin 1
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[1]}];
+set_property PACKAGE_PIN U24 [get_ports {vid_data_0[0]}];             # Data-pin 0
+set_property IOSTANDARD LVCMOS25 [get_ports {vid_data_0[0]}];
+
